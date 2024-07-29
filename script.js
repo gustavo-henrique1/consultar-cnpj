@@ -22,21 +22,29 @@ function toCamelCase(str) {
 
 async function consultarCNPJ() {
     const cnpj = document.getElementById('cnpj-input').value.replace(/[^\d]+/g, '');
-    const response = await fetch(`https://brasilapi.com.br/api/cnpj/v1/${cnpj}`);
 
-    try {
-        if (!response.ok) {
-            throw new Error('Erro ao buscar dados da empresa. Verifique o CNPJ e tente novamente.');
-        } else {
-            const data = await response.json();
+    if(cnpj != '') {
+        const response = await fetch(`https://brasilapi.com.br/api/cnpj/v1/${cnpj}`);
 
-            document.getElementById('body').classList.remove('overflow');
-            document.getElementById('image-area').classList.add('d-none');
-            setData(data);
+        try {
+            if(!response.ok) {
+                throw new Error('Erro ao buscar dados da empresa. Verifique o CNPJ e tente novamente.');
+            } else {
+                const data = await response.json();
+    
+                document.getElementById('body').classList.remove('overflow');
+                document.getElementById('image-area').classList.add('d-none');
+                setData(data);
+            }
+        } catch (error) {
+            alert(error.message);
         }
-    } catch (error) {
-        alert(error.message);
+    } else {
+        alert('Digie um CNPJ para continuar.');
+        clear();
     }
+    
+   
 }
 
 function setData(data) {
