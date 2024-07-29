@@ -2,10 +2,13 @@
 
 Facilitamos para consultar informações de empresas pelo CNPJ utilizando a API da BrasilAPI. As informações são exibidas de maneira intuitiva e responsiva.
 
+<br/><br/>
+
 ## Como rodar o projeto
 1. Faça o download ou clone este repositório.
 2. Abra o arquivo `index.html` em um navegador web.
 
+<br/><br/>
 
 ## Funcionalidades
 - Consultar informações de empresas pelo CNPJ.
@@ -13,6 +16,8 @@ Facilitamos para consultar informações de empresas pelo CNPJ utilizando a API 
 - Apresentar dados dos sócios em cards separados.
 - Filtrar sócios.
 - Permitir edição dos dados exibidos diretamente na interface.
+
+<br/><br/>
 
 ## Ideação do projeto
 
