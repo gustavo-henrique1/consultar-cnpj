@@ -14,7 +14,7 @@ Facilitamos para consultar informações de empresas pelo CNPJ utilizando a API 
 - Filtrar sócios.
 - Permitir edição dos dados exibidos diretamente na interface.
 
-# Ideação do projeto
+## Ideação do projeto
 
 ![Home](/image/wireframe_home.png)
 
