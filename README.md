@@ -17,5 +17,10 @@ Facilitamos para consultar informações de empresas pelo CNPJ utilizando a API 
 # Ideação do projeto
 
 ![Home](/image/wireframe_home.png)
+
+<br/><br/>
+-------------------------------------------
+<br/><br/>
+
 ![Search](/image/wireframe_search.png)
 
