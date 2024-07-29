@@ -1,8 +1,8 @@
-# Projeto de Consulta de CNPJ
+# Projeto de consulta de CNPJ
 
-Este projeto permite consultar informações de empresas pelo CNPJ utilizando a API da BrasilAPI. As informações são exibidas de maneira intuitiva e responsiva, com possibilidade de edição.
+Facilitamos para consultar informações de empresas pelo CNPJ utilizando a API da BrasilAPI. As informações são exibidas de maneira intuitiva e responsiva.
 
-## Como Rodar o Projeto
+## Como rodar o projeto
 1. Faça o download ou clone este repositório.
 2. Abra o arquivo `index.html` em um navegador web.
 
@@ -13,3 +13,9 @@ Este projeto permite consultar informações de empresas pelo CNPJ utilizando a 
 - Apresentar dados dos sócios em cards separados.
 - Filtrar sócios.
 - Permitir edição dos dados exibidos diretamente na interface.
+
+# Ideação do projeto
+
+![Home](/image/wireframe_home.png)
+![Search](/image/wireframe_search.png)
+
